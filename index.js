@@ -25,6 +25,11 @@ formulario.addEventListener('submit', function(evento){
         email.focus;
         return;
     }
+    if(email.value.length > 0 && email.value.includes('@')){
+        lblError.innerText = 'Formato de email incorrecto';
+        email.focus;
+        return;
+    }
     if(password.value == ""){
         lblError.innerText = 'El campo password no puede estar vacio';
         password.focus;
