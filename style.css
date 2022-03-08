@@ -67,7 +67,7 @@
   transition: .3s;
 }
 
-#feedback-form button[type=submit] {
+#feedback-form input[type=submit] {
   display: block;
   margin: 20px auto 0;
   width: 150px;
